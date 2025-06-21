@@ -62,3 +62,21 @@ img {
     font-size: 20px;
     padding: 0px 200px;
 }
+
+.plato h4{
+    font-family: "Comic Relief", system-ui;
+    font-style: normal;
+    font-size: 20px;
+    padding: 20px 200px;
+}
+
+ul{
+    font-family: "Comic Relief", system-ui;
+    font-style: normal;
+    font-size: 25px;
+    padding: 20px 200px;
+}
+
+li{
+    padding: 15px 0px;
+}
