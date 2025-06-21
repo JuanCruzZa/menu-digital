@@ -1,67 +1,64 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header{
-    background-image: linear-gradient(rgba(128, 128, 128, 0.6), rgba(128, 128, 128, 0.6)), url(../img/restaurante.jpg);
+header {
+    background-image: linear-gradient(rgba(128,128,128,.6), rgba(128,128,128,.6)), url(../img/restaurante.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 80%;
     height: 30vh;
-
 }
 
-
-h1{
+h1 {
     text-align: center;
     font-family: "Ms Madi", cursive;
-    font-style: normal;
-    font-weight: bold;
     font-size: 100px;
-    padding: 50px 0px;
+    padding: 50px 0;
 }
 
-main{
-    background-color:whitesmoke;
+main { 
+    background-color: whitesmoke; 
 }
 
-li {
-  text-align: center;
+.plato {
+    text-align: center;           
 }
 
-h2{
+h2 {
     margin: 0;
     text-align: center;
     font-family: "Ms Madi", cursive;
-    font-style: normal;
-    font-weight: bold;
     font-size: 60px;
-    padding: 25px 0px;
-    background-color: rgb(157, 36, 36);
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    padding: 25px 0;
+    background-color: rgb(157,36,36);
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
 }
 
-
-h3{
+h3 {
     color: whitesmoke;
-    text-align: center;
-    font-family: "Ms Madi", cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    padding: 20px 0px;
-    margin: 20px 80px 20px 80px;
     background-color: darkgreen;
     border-radius: 10px;
-    border: 3px solid black;
+    border: 3px solid #000;
+    font-family: "Ms Madi", cursive;
+    font-size: 30px;
+    padding: 20px 0;
+    margin: 20px 80px;
 }
 
-img{
-    height: 50vh;
+img {
+    margin: 20px auto;
+    height: 40vh;
     border-radius: 10px;
-    text-align: center;
-    border: 3px solid black;
+    border: 3px solid #000;
+}
+
+.plato p{
+    font-family: "Comic Relief", system-ui;
+    font-style: normal;
+    font-size: 20px;
+    padding: 0px 200px;
 }
