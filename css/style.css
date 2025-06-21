@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.6), rgba(128, 128, 128, 0.6)), url(../img/restaurante.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 80%;
+    height: 30vh;
+
+}
+
+
+h1{
+    text-align: center;
+    font-family: "Ms Madi", cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    padding: 50px 0px;
+}
+
+main{
+    background-color:whitesmoke;
+}
+
+li {
+  text-align: center;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+    font-family: "Ms Madi", cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    padding: 25px 0px;
+    background-color: rgb(157, 36, 36);
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+
+h3{
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Ms Madi", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    padding: 20px 0px;
+    margin: 20px 80px 20px 80px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+img{
+    height: 50vh;
+    border-radius: 10px;
+    text-align: center;
+    border: 3px solid black;
+}
