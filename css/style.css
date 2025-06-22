@@ -80,3 +80,17 @@ ul{
 li{
     padding: 15px 0px;
 }
+
+footer{
+    background-color: whitesmoke;
+    border-top: 5px solid black;
+}
+
+footer p{
+    font-family: "Comic Relief", system-ui;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px 0px;
+
+}
