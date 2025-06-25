@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Ms+Madi&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.cursiva{
+    font-family: "Ms Madi", cursive;
+}
+
+.comic{
+    font-family: "Comic Relief", system-ui;
+    font-style: normal;
+}
+
 header {
-    background-image: linear-gradient(rgba(128,128,128,.6), rgba(128,128,128,.6)), url(../img/restaurante.jpg);
+    background-image: linear-gradient(to right, rgba(0, 146, 70,.6), rgba(206, 43, 55,.6)), url(../img/restaurante.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 80%;
@@ -13,8 +23,8 @@ header {
 }
 
 h1 {
+    color: whitesmoke;
     text-align: center;
-    font-family: "Ms Madi", cursive;
     font-size: 100px;
     padding: 50px 0;
 }
@@ -30,7 +40,6 @@ main {
 h2 {
     margin: 0;
     text-align: center;
-    font-family: "Ms Madi", cursive;
     font-size: 60px;
     padding: 25px 0;
     background-color: rgb(157,36,36);
@@ -43,8 +52,7 @@ h3 {
     background-color: darkgreen;
     border-radius: 10px;
     border: 3px solid #000;
-    font-family: "Ms Madi", cursive;
-    font-size: 30px;
+    font-size: 35px;
     padding: 20px 0;
     margin: 20px 80px;
 }
@@ -57,22 +65,16 @@ img {
 }
 
 .plato p{
-    font-family: "Comic Relief", system-ui;
-    font-style: normal;
     font-size: 20px;
     padding: 0px 200px;
 }
 
 .plato h4{
-    font-family: "Comic Relief", system-ui;
-    font-style: normal;
     font-size: 20px;
     padding: 20px 200px;
 }
 
 ul{
-    font-family: "Comic Relief", system-ui;
-    font-style: normal;
     font-size: 25px;
     padding: 20px 200px;
 }
@@ -87,8 +89,6 @@ footer{
 }
 
 footer p{
-    font-family: "Comic Relief", system-ui;
-    font-style: normal;
     text-align: center;
     font-size: 25px;
     padding: 15px 0px;
