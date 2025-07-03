@@ -5,6 +5,9 @@ Este proyecto corresponde al TP 2 del curso **Full Stack UTN**.
 Consiste en una página web que muestra el menú de un restaurante italiano ficticio.
 
 ---
+## 🚀 Cómo ver el proyecto
+- **Demo en GitHub Pages**: <https://juancruzza.github.io/menu-digital/>
+---
 
 ## 🎯 Objetivo de la consigna
 
